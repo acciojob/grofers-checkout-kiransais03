@@ -16,6 +16,7 @@ const getSum = (event) => {
   let trow= table.insertRow();
   let cell=trow.insertCell(0);
  cell.innerText=`${ans}`;
+	cell.id='ans';
 }
 
 getSumBtn.addEventListener("click", getSum);
